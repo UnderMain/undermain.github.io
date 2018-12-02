@@ -1,6 +1,10 @@
+@@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 body {
   color: #555;
   margin: 0;
+
+  font-family: 'Montserrat',
+  sans-serif;
 }
 
 #header {
@@ -43,4 +47,71 @@ body {
 
 #header a:hover {
   color: #222;
+}
+
+#footer {
+  background-color: #2f2f2f;
+  padding: 50px 0;
+}
+
+.column {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#footer h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#footer p {
+  color: white;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+
+a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F6A623;
+}
+
+.post {
+  max-width: 800px;
+  margin: 0;
+  padding: 60px 0;
+}
+
+.post-autor img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.post-autor span {
+  margin-left: 16px;
+}
+
+.post-date {
+  color: #D2D2D2;
+
+  font-size: 14px;
+  font-weight: bold;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+h1, h2, h3, h4 {
+  color: #333
+}
+
+p {
+  line-height: 1.5;
 }
